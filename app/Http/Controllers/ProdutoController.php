@@ -2,11 +2,17 @@
 
 namespace App\Http\Controllers;
 
+
 use App\Models\Produto;
+
 use Illuminate\Http\Request;
+
 use Illuminate\Http\RedirectResponse;
+
 use Illuminate\Http\Response;
+
 use Illuminate\View\View;
+
 use Symfony\Contracts\Service\Attribute\Required;
 
 class ProdutoController extends Controller

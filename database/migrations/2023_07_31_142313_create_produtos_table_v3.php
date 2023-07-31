@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateProdutosTable extends Migration
+class CreateProdutosTableV3 extends Migration
 {
     /**
      * Run the migrations.
@@ -27,7 +27,7 @@ class CreateProdutosTable extends Migration
 
             $table->float('precoVenda');
 
-            $table->timestamps();
+	        $table->timestamps();
 
         });
 

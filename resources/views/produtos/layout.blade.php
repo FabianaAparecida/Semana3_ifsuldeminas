@@ -35,7 +35,7 @@
 
     <main role="main" class="container">
 
-      <div class="template">
+      <div class="">
         <div class="container">
             @yield('content')
         </div>
